@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo</title>
+    <style>
+        .list img{
+            background:blue;
+            width: 50px;
+            height: 50px;
+        }
+        .list>p:nth-child(even) img{
+            background: red;
+        }
+        .list>p:last-child img{
+            background: orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="list">
+        <p><img /></p>
+        <p><img /></p>
+        <div class="sub-list">
+            <p><img /></p>
+            <p><img /></p>
+        </div>
+        <p><img /></p>
+        <div class="sub-list">
+            <p><img /></p>
+        </div>
+    </div>
+</body>
+</html>
+<!--css后代选择器：
+>，只是选择元素的子元素，也就是儿子。而不是后代元素，即不包括孙子，曾孙子等。
+    p:nth-child(n):第n个子元素如果是p元素，则。。。，如果不是，则不满足条件不执行
+    p:last-child:最后一个子元素如果是p元素，则。。，如果不是，则不满足条件不执行
+=====================================================================================
+    CSS新增伪类
+•	:root 选择文档的根元素，等同于 html 元素
+•	:empty 选择没有子元素的元素
+•	:target 选取当前活动的目标元素
+•	:not(selector) 选择除 selector 元素意外的元素
+•	:enabled 选择可用的表单元素
+•	:disabled 选择禁用的表单元素
+•	:checked 选择被选中的表单元素
+•	:after 在元素内部最前添加内容
+•	:before 在元素内部最后添加内容
+•	:nth-child(n) 匹配父元素下指定子元素，在所有子元素中排序第n
+•	:nth-last-child(n) 匹配父元素下指定子元素，在所有子元素中排序第n，从后向前数
+•	:nth-child(odd)
+•	:nth-child(even)
+•	:nth-child(3n+1)
+•	:first-child
+•	:last-child
+•	:only-child
+•	:nth-of-type(n) 匹配父元素下指定子元素，在同类子元素中排序第n
+•	:nth-last-of-type(n) 匹配父元素下指定子元素，在同类子元素中排序第n，从后向前数
+•	:nth-of-type(odd)
+•	:nth-of-type(even)
+•	:nth-of-type(3n+1)
+•	:first-of-type
+•	:last-of-type
+•	:only-of-type
+•	::selection 选择被用户选取的元素部分
+•	:first-line 选择元素中的第一行
+•	:first-letter 选择元素中的第一个字符
+
+-->

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>盒子模型尺寸</title>
+    <style>
+        .con{
+            width: 100px;
+            height: 100px;
+            background-color: aquamarine;
+            border:2px solid red;
+            padding:10px;
+        }
+        .con1{
+            box-sizing: border-box;/*IE盒模型*/
+        }
+    </style>
+</head>
+<body>
+    <div class="con"></div>
+    <div class="con con1"></div>
+</body>
+</html>
+<!--IE5.5前是IE盒模型 IE6之后盒模型都是content-box
+    css3之后可通过box-sizing改盒子模型
+    W3C标准一直是content-box
+    content-box:width和height只设置content
+    border-box(IE盒模型):width和height = border+padding+content-->
