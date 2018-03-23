@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9766dab7-db54-48e2-bba9-0ca62b19040f" name="Default" comment="" />
+    <list default="true" id="9766dab7-db54-48e2-bba9-0ca62b19040f" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/mergeArray.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,13 +16,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="mergeArray.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mergeArray.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -33,6 +47,9 @@
       <replace>ctx</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -44,6 +61,7 @@
         <option value="$PROJECT_DIR$/learn==.js" />
         <option value="$PROJECT_DIR$/learnLambda.js" />
         <option value="$PROJECT_DIR$/learnCSS.html" />
+        <option value="$PROJECT_DIR$/mergeArray.js" />
       </list>
     </option>
   </component>
@@ -59,11 +77,12 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="631" />
     <option name="width" value="741" />
     <option name="height" value="744" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -116,20 +135,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.learnLambda.js">
+  <component name="RunManager" selected="Node.js.mergeArray.js">
     <configuration name="demo.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="demo.js" working-dir="$PROJECT_DIR$" />
     <configuration name="learnLambda.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="learnLambda.js" working-dir="$PROJECT_DIR$" />
     <configuration name="learn==.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="learn==.js" working-dir="$PROJECT_DIR$" />
-    <list size="3">
+    <configuration name="mergeArray.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="mergeArray.js" working-dir="$PROJECT_DIR$" />
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Node.js.demo.js" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.learn==.js" />
       <item index="2" class="java.lang.String" itemvalue="Node.js.learnLambda.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.mergeArray.js" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.learnLambda.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.learn==.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.demo.js" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.mergeArray.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.learnLambda.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.learn==.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.demo.js" />
       </list>
     </recent_temporary>
   </component>
@@ -156,22 +178,23 @@
       <workItem from="1521456275850" duration="1421000" />
       <workItem from="1521684266745" duration="2792000" />
       <workItem from="1521718562900" duration="1806000" />
-      <workItem from="1521792664745" duration="173000" />
+      <workItem from="1521792664745" duration="1710000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37490000" />
+    <option name="totallyTimeSpent" value="39027000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14880952" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1688988" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18421052" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23529412" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -190,6 +213,9 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -477,6 +503,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mergeArray.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
           <folding />
         </state>
       </provider>
